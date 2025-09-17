@@ -17,10 +17,15 @@ Download and extract data files to ./data folder.
 ```
 ## Requirements:
 Python==3.9
+
 torch-2.5.1+cu118
+
 torch-geometric
+
 scikit-learn
+
 scipy
+
 numpy
 
 ## Usage
