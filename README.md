@@ -1,7 +1,7 @@
 # Time-aware-Graph-Sequence-Learning-for-Anti-MoneyLaundering-Detection
 
 
-### Dataset: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
+Dataset: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
 Download and extract data files to ./data folder.
     
 ## Dataset Details
