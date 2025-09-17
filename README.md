@@ -23,4 +23,10 @@ scikit-learn
 scipy
 numpy
 
-## Usage: python main.py --data HI-Small --prediction_window 2 --length 32
+## Usage
+Modify the file's location that calls data in pattern_analyzer.py/evaluate.py/data_loader.py 
+(You can directly press Ctrl+F to search for "HI-" or "LI-")
+
+python main.py --data HI-Small --prediction_window 2 --length 32
+
+
