@@ -16,17 +16,12 @@ Download and extract data files to ./data folder.
 .. Laundering Rate (1 per N Trans)  981   1942       905    1948       807     1750
 ```
 ## Requirements:
-Python==3.9
-
-torch-2.5.1+cu118
-
-torch-geometric
-
-scikit-learn
-
-scipy
-
-numpy
+Python==3.9  
+torch-2.5.1+cu118  
+torch-geometric  
+scikit-learn  
+scipy  
+numpy  
 
 ## Usage
 Modify the file's location that calls data in pattern_analyzer.py/evaluate.py/data_loader.py 
