@@ -1,7 +1,7 @@
 # Time-aware-Graph-Sequence-Learning-for-Anti-MoneyLaundering-Detection
 
 
-Dataset: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
+Dataset: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml  
 Download and extract data files to ./data folder.
     
 ## Dataset Details
@@ -24,7 +24,7 @@ scipy
 numpy  
 
 ## Usage
-Modify the file's location that calls data in pattern_analyzer.py/evaluate.py/data_loader.py 
+Modify the file's location that calls data in pattern_analyzer.py/evaluate.py/data_loader.py  
 (You can directly press Ctrl+F to search for "HI-" or "LI-")
 
 python main.py --data HI-Small --prediction_window 2 --length 32
