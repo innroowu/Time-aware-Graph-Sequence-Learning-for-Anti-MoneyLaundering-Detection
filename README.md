@@ -1,14 +1,14 @@
-#Time-aware-Graph-Sequence-Learning-for-Anti-MoneyLaundering-Detection
+# Time-aware-Graph-Sequence-Learning-for-Anti-MoneyLaundering-Detection
 
 
-##Dataset: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
+## Dataset: https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
 Download and extract data files to ./data folder.
-    ./data/HI-Small
-    ./data/HI-Medium
-    ...
-    ./data/HI-Large
+    + ./data/HI-Small
+    + ./data/HI-Medium
+       ...
+    +./data/HI-Large
     
-##Dataset Details
+## Dataset Details
 ```
 ..                                  SMALL           MEDIUM           LARGE
 ..                                  HI     LI        HI      LI       HI       LI
@@ -19,7 +19,7 @@ Download and extract data files to ./data folder.
 .. # of Laundering Transactions     5.1K   4.0K       35K     16K      223K    100K
 .. Laundering Rate (1 per N Trans)  981   1942       905    1948       807     1750
 ```
-##Requirements:
+## Requirements:
 Python==3.9
 torch-2.5.1+cu118
 torch-geometric
@@ -27,4 +27,4 @@ scikit-learn
 scipy
 numpy
 
-##Usage: python main.py --data HI-Small --prediction_window 2 --length 32
+## Usage: python main.py --data HI-Small --prediction_window 2 --length 32
